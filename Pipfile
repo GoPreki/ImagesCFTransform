@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pillow = "*"
+boto3 = "==1.18.55"
+pillow-avif-plugin = "*"
+
+[dev-packages]
+flake8 = "*"
+yapf = "*"
+
+[requires]
+python_version = "3.9"
